@@ -1,0 +1,351 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.right-menu {
+    display: flex;
+    margin-top: 30px !important;
+    text-decoration: solid;
+}
+
+.right-menu li .fa {
+    font-size: 28px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.navbar-brand img {
+    width: 160px;
+}
+
+.header{
+   background: #f5f6f5 ; 
+   margin-bottom: 80px;
+}
+
+.navbar{
+    padding: 0 35px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+
+}
+
+.navbar-toggler .fa{
+    font-size: 30px;
+}   
+
+.banner-img{
+    margin: 80px 150px;
+    width: 60%;
+}
+
+.banner-img img {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner-title{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+}
+
+.banner-title h1{
+    font-size: 45px;
+    background: rgba(0, 0,0, 0.75) ;
+    color: white;
+    line-height: 100%;
+    padding: 0 0 0 10px;
+}
+
+/*-----------fashion trends---------------*/
+
+.fashion-trends{
+    padding: 40px 0 ;
+
+}
+
+.fashion-box{
+    margin: 80px 0 ;
+}
+
+.title-style h1 {
+    padding: 25px 0 ;
+}
+
+.title-style{
+    margin: 0px auto 50px ;
+    height: 100px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5) ;
+}
+
+.title-style::after{
+    content: '';
+    height: 100px;
+    width: 150px;
+    background-color: seagreen;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+
+}
+
+.title-style::before{
+    content: '';
+    height: 100px;
+    width: 150px;
+    background-color: seagreen;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+
+}
+
+.trending-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.trending-img img {
+    width: 100%;
+}
+
+.btn-buy{
+    width: 150px;
+    padding: 10px 0;
+    color: black !important;
+    outline: none !important; 
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.trending-img:hover .btn-buy {
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+
+.overlay{
+    height: 0;
+    width: 100%;
+    background: lightgreen !important;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.trending-img:hover .overlay{
+    opacity: 0.5;
+    height: 100%;
+}
+
+/*------------ offer --------------*/
+
+.offer{
+    background-image: url(./images/watch1.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+    margin: initial !important ;
+}
+
+.subscribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+
+.subscribe a {
+    width: 150px;
+    display: block;
+    color: white !important;
+    background: #000;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.offer img {
+    width: 300px;
+    height: 400px;
+    margin: -100px;
+    margin-top: 150px;
+}
+
+/*-------------- fashion-blog ----------------------*/
+
+.fashion-blog{
+   margin: 250px 0 150px 0 ; 
+}
+
+.blog-img{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.fashion-blog h1{
+    text-transform: uppercase;
+}
+
+.fashion-blog h5 {
+ margin-top: 20px;
+ font-weight: 800 bold;   
+text-transform: uppercase !important;
+}
+
+/*-------------- fashion-branchs ----------------------*/
+
+.fashion-brand{
+    margin-bottom: 150px;
+}
+
+.fashion-brand h1{
+    text-transform: uppercase;
+    padding: 20px 0 ;
+    font-size: 45px;
+}
+
+.brand-logo{
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 50%;
+    margin: 80px 40px 40px 20px;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, 18);
+}
+
+.brand-logo img {
+    width: 80px ;
+    margin: 50px auto ;
+}
+
+.brand-logo p {
+    margin-top: 60px;
+    font-weight: 800 bold !important;
+    text-transform: uppercase;
+}    
+
+ /*------------- fashion branch ------------------*/
+
+
+.footer{
+    margin-top: 150px;
+    background: #f5f6fc;
+}
+
+.payment,.insta-img,.app-download{
+    margin: 50px auto;
+}
+
+.payment img{
+    width: 300px;
+    cursor: pointer;
+}
+
+.insta-img img{
+
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.app-download{
+    width: 300px;
+    cursor: pointer;
+}
+
+.footer h5{
+    margin-bottom: 50px;
+}
+
+.footer h5::before{
+    content: '';
+    width: 100px;
+    height: 9px;
+    background: #4f74e8;
+    top: 85px;
+    position: absolute;
+}
+
+.footer-icon{
+    text-align: right;
+    display: flex;
+    margin: 0 10px auto;
+    font-weight: 20px;
+    margin-top: 0px;
+    text-decoration: solid;
+}
+
+.footer-icon .fa{
+    margin: 0 10px auto;
+    font-weight: 20px;
+    cursor: pointer;
+}
+
+/*------------ for small-device ----------------*/
+
+@media only screen and (max-width:900px){
+    .banner-img{
+        margin: 40px auto;
+        width: 80%;
+    }   
+
+    .banner-title{
+        top: 480px;
+        left: 80%;
+        transform: translate(-70%);
+    }
+
+    .banner-title h1{
+        font-size: 30px;
+        padding: 0px;
+        line-height: 30px;
+    }
+
+    .title-style h1{
+        padding: 20px 0 ;
+        font-size: 45px;
+    }
+
+    .fashion-brand h1{
+        padding: 20px 0 ;
+        font-size: 40px;
+    }
+
+}
